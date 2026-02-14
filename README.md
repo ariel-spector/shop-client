@@ -32,6 +32,6 @@ The user-facing side of the Online Shop, focusing on a smooth shopping experienc
     ```bash
     npm start
     ```
-5.  Open `http://localhost:3000` in your browser.
+5.  Open `http://localhost:5173` in your browser.
 
 ---

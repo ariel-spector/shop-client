@@ -1,16 +1,37 @@
-# React + Vite
+#  Online Shop - Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The user-facing side of the Online Shop, focusing on a smooth shopping experience and intuitive interface.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Dynamic Product Catalog:** Browse products and manage your cart in real-time.
+* **Advanced Profile Page:** * View order history with accurate status tracking.
+    * Integrated **Order History** with formatted date displays.
+* **The Danger Zone:** A secure account deletion flow with user confirmation.
+* **Responsive UI:** Fully responsive design built with Material UI (MUI).
 
-## React Compiler
+##  Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework:** React.js
+* **UI Library:** Material UI (MUI)
+* **API Client:** Axios
+* **State Management:** React Hooks & Context API
 
-## Expanding the ESLint configuration
+ ## Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone the repository.
+2.  Navigate to the directory:
+    ```bash
+    cd shop-client
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the development server:
+    ```bash
+    npm start
+    ```
+5.  Open `http://localhost:3000` in your browser.
+
+---
